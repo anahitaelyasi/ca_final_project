@@ -29,14 +29,6 @@ module cu(
             sel_A[2:0] = 3'b010; // R3
             LD_outr = 1;
 
-            sel_A   = 0;
-            sel_B   = 0;
-            LD_R1   = 0;
-            LD_R2   = 0;
-            LD_R3   = 0;
-            LD_DR1  = 0;
-            LD_DR2  = 0;
-            LD_AC   = 0;
 
         end 
         else begin
